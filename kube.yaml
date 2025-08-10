@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: nextjs
-          image: beddows/next-test:0.0.1 # <-- local image (minikube will need image loading)
+          image: beddows/next-test:0.0.3
           imagePullPolicy: IfNotPresent
           ports:
             - containerPort: 3000
